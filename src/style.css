@@ -158,7 +158,7 @@ footer {
   padding: 20px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 915px) {
   .grid-card {
     display: grid;
     grid-template-columns: 1fr;
@@ -172,5 +172,11 @@ footer {
     grid-gap: 30px;
     margin-left: 5%;
     margin-right: 5%;
+  }
+}
+
+@media (max-width: 915px) {
+  table {
+    display: none;
   }
 }
