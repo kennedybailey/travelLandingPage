@@ -1,4 +1,10 @@
+Body {
+  background-color: #013338;
+  margin-top: 0px;
+}
+
 .container {
+  background-color: #fff;
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -6,7 +12,61 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../media/heroImage.jpg);
   background-repeat: no-repeat;
+  display: block;
   background-size: cover;
   color: #fff;
   text-align: center;
+}
+
+.hero h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  margin: 0;
+}
+
+.hero h2 {
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 5%;
+}
+.hero h3 {
+  font-family: "Poppins", sans-serif;
+  margin-top: 0;
+  padding-top: 5%;
+}
+
+.why {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.why h1 {
+  font-family: "Poppins", sans-serif;
+  color: #013338;
+}
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 5px;
+}
+
+th {
+  max-width: 350px;
+}
+
+img {
+  filter: contrast(99%);
+}
+.img-responsive {
+  max-width: 100%;
+  display: block;
+  border-radius: 3px;
+}
+
+tr {
+  font-family: "Poppins", sans-serif;
 }
