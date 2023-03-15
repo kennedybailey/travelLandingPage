@@ -1,0 +1,8 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../media/heroImage.jpg);
+}
