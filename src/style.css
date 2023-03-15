@@ -92,6 +92,7 @@ tr {
 
 .card {
   background-color: #fff;
+  margin-bottom: 10%;
 }
 
 .title {
@@ -137,7 +138,14 @@ a:hover {
 .grid-embed {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 30px;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.insta-box h1 {
+  font-family: "Poppins", sans-serif;
+  color: #013338;
+  text-align: center;
+  padding-top: 5%;
 }
