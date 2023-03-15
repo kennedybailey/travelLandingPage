@@ -115,7 +115,7 @@ tr {
   padding-right: 5%;
 }
 
-a {
+.btn {
   display: block;
   color: #fff;
   font-weight: 700;
@@ -148,4 +148,12 @@ a:hover {
   color: #013338;
   text-align: center;
   padding-top: 5%;
+}
+
+footer {
+  background-color: #fe8c90;
+  color: #013338;
+  text-align: center;
+  margin-top: 5%;
+  padding: 20px;
 }
